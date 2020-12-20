@@ -1,0 +1,68 @@
+#jumbo {
+    margin-top: 95px;
+    background: rgb(238,174,227);
+    background: radial-gradient(circle, rgba(238,174,227,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+#letrasCar {
+    color: black;
+    background-color: blanchedalmond;
+    opacity: 0.7;
+    border-radius: 17px;
+}
+
+.card-text {
+    color: grey;
+    font-style: italic;
+}
+
+
+#carouselControls {
+    margin-bottom: 15px;
+}
+
+#logoImg {
+    width: 50px;
+}
+
+
+#navbar1 {
+    background-color: lavender;
+    margin-bottom: 15px;
+}
+
+#navbar2{
+    text-align: center;
+    background: rgb(238,174,227);
+    background: radial-gradient(circle, rgba(238,174,227,1) 0%, rgba(148,187,233,1) 100%); 
+    margin-bottom: 15px;
+}
+
+#cardGerente {
+    margin-top: 65px;
+}
+
+.card-img {
+    max-width: 450px;
+}
+
+#card-img2 {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 1px;
+    background-color: lavender;
+    padding: 1em;
+    
+}
+
+#footer2 {
+    background: rgb(238,174,227);
+    background: radial-gradient(circle, rgba(238,174,227,1) 0%, rgba(148,187,233,1) 100%); 
+    padding: 1em;
+}
+
+#titulo {
+    margin-top: 95px;
+}

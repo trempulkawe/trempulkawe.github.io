@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2">RUT</div>
                     <div class="col-9 col-sm-4 col-md-4 col-lg-5">
-                        <input type="number" name="numRut " class="form-control " maxlength="8" placeholder="Ej: 15.555.000 ">
+                        <input type="number" onKeyPress="if(this.value.length==8) return false;" name="numRut" class="form-control" placeholder="Ej: 15.555.000 ">
                     </div>
                     <div class="col-3 col-sm-2 col-md-2 col-lg-1">
                         <select name="cmbDigitoVerificador" class="form-control"> 
@@ -150,7 +150,7 @@
             <div class="row row offset-sm-2">
                 <div class="col-12 col-sm-2 col-lg-2 col-xl-2">Año</div>
                 <div class="col-12 col-sm-6">
-                <input type="number" min="1886" max="2020" step="1" class="form-control" placeholder="Ej: 2020" />
+                <input type="number" onKeyPress="if(this.value.length==4) return false;" min="1886" max="2020" step="1" class="form-control" placeholder="Ej: 2020" />
             </div>
             </div>
             <br>

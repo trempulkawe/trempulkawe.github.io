@@ -79,19 +79,19 @@
                 <div class="row">
                     <div class="col-12 col-sm-2 col-lg-2 col-xl-2">Nombre(s)</div>
                     <div class="col-12 col-sm-6">
-                        <input type="text " name="txtNombre " class="form-control" maxlength="50" placeholder="Ej: Juan Ignacio" pattern="^([^\s][A-z0-9À-ž\s]+){1,50}$" title="Por favor, ingrese su nombre" required>
+                        <input type="text " name="txtNombre " class="form-control" maxlength="50" placeholder="Ej: Juan Ignacio" pattern="^([^\s][A-z0-9À-ž\s]+){1,50}$" title="Por favor, ingrese nombre" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-2 col-lg-2 col-xl-2">Apellido(s)</div>
                     <div class="col-12 col-sm-6">
-                        <input type="text " name="txtApellido " class="form-control" maxlength="50" placeholder="Ej: González Narea" pattern="^([^\s][A-z0-9À-ž\s]+){1,50}$" title="Por favor, ingrese su apellido" required>
+                        <input type="text " name="txtApellido " class="form-control" maxlength="50" placeholder="Ej: González Narea" pattern="^([^\s][A-z0-9À-ž\s]+){1,50}$" title="Por favor, ingrese apellido" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-2 col-lg-2 col-xl-2">Dirección</div>
                     <div class="col-12 col-sm-6">
-                        <input type="text " name="txtDirección" class="form-control" maxlength="100" placeholder="Ej: MelchiorStrasse 111" pattern="^([^\s][A-z0-9À-ž\s]+){1,100}$" title="Por favor, ingrese su dirección" required>
+                        <input type="text " name="txtDirección" class="form-control" maxlength="100" placeholder="Ej: MelchiorStrasse 111" pattern="^([^\s][A-z0-9À-ž\s]+){1,100}$" title="Por favor, ingrese dirección" required>
                     </div>
                 </div>
                 <div class="row">
@@ -174,7 +174,7 @@
 
             <div class="row row offset-sm-2">
                 <div class="col-12 col-sm-2 col-lg-2 col-xl-2"></div>
-                    <form>
+                <form name=form1 method=post action=check.php>
                     <table>
                     <tr><td style="padding-right: 70px; padding-left: 15px;"><input type=checkbox name=ckb value=5000 onclick='chkcontrol(0)';> Lavado Exterior <br> Valor: $5.000 (NETO)</td>
                         <td><input type=checkbox name=ckb value=8000 onclick='chkcontrol(1)';> Lavado Motor <br> Valor: $8.000 (NETO) </td></tr>

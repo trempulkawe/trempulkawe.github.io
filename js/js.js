@@ -121,3 +121,27 @@ function chkcontrol(j) {
 	document.getElementById("msg").innerHTML="Total Servicio(s) : $"+ sum + " IVA incluido";
 	}
 	}
+
+/*
+//profe
+$(".btnEnviar").click(function() {
+	if ($.trim($('.txtNombre').val()).length == 0) {
+		alert('Falta nombre');
+
+
+	}
+
+	if ($('.cmbTipoAuto').val() == "0") {
+
+
+	}
+
+	if (!$('.chkLavadoE').is(':checked') && !$('.chkLavadoM').is(':checked')) {
+
+	}
+
+	if (1 == 1 && (2 == 2 || 3 == 3)) {
+		alert('ok');
+	}
+})
+*/
